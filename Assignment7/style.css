@@ -1,0 +1,215 @@
+/* Define the primary color palette */
+body {
+  background-color: #fff;  
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #383e42;
+  color: #383e42;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Logo styling */
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation menu styling */
+nav {
+  background-color: #383e42;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Style the login button */
+.login-button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  background-color: #0c6851; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px; /* Adjust the margin as needed */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a transition effect */
+
+  /* Position the button in the top-right corner */
+  position: absolute;
+  top: 82px;
+  right: 150px;
+}
+
+/* Style the button on hover */
+.login-button:hover {
+  background-color: #0c4668; /* Button background color on hover */
+}
+
+
+
+/* Call-to-action button */
+.button {
+  background-color: #37945b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Main content container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Feature sections */
+.feature {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #383e42; /* Sidebar background color */
+  color: #fff; /* Text color */
+  width: 200px; /* Adjust the width as needed */
+  position: fixed; /* Keeps the sidebar fixed when scrolling */
+  top: 0;
+  left: 0;
+  height: 100%; /* Fills the full height of the viewport */
+  overflow-y: auto; /* Enables scrolling if the content is too long */
+}
+
+/* Sidebar list styles */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+/* Sidebar link styles */
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+/* Sidebar link hover effect */
+.sidebar a:hover {
+  background-color: #2c3e50; /* Background color on hover */
+}
+
+/* Style the select element (drop-down button) */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the options within the drop-down */
+select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the drop-down button when it's focused (clicked) */
+select:focus {
+  outline: none;
+  border-color: #3498db; /* Change the border color on focus */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Add a subtle shadow on focus */
+}
+
+/* Style the image container */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+/* Style individual images */
+.image-container img {
+  max-width: 30%; /* Adjust the width of each image as needed */
+  margin-bottom: 20px; /* Add spacing between images */
+  border: 1px solid #ccc; /* Add a border around each image */
+  border-radius: 5px;
+  transition: transform 0.2s; /* Add a transform effect on hover */
+
+  /* Optional: Add a box shadow on hover */
+  cursor: pointer;
+}
+
+/* Image hover effect */
+.image-container img:hover {
+  transform: scale(1.05); /* Scale up the image on hover */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover */
+}
+
+
+
+/* Footer styling */
+footer {
+  background-color: #383e42;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Imprint page legal text */
+.imprint {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Link styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Customize your own styles based on this template */
